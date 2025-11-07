@@ -2,7 +2,13 @@
 Simple tool to emulate pointer events in Linux X11 using python script.
 
 To build: ```make default```\
-Python should be installed. Check the version of library in makefile.
+Python should be installed. Check or update the version of library in makefile.
+
+Next packages are required for build:
+```
+libx11-dev
+python3-dev
+```
 
 To use:
 1. Create file 'script.py' in the same folder with the executable.
